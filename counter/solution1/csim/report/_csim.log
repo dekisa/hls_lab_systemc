@@ -1,0 +1,9 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../main.cpp in debug mode
+In file included from ../../../main.cpp:2:0:
+../../../top.h: In constructor 'top::top(sc_core::sc_module_name)':
+../../../top.h:18:27: error: type 'sc_core::sc_module_name' is not a direct base of 'top'
+make: *** [obj/main.o] Error 1
+CRITICAL WARNING: [SIM 100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 3] *************** CSIM finish ***************

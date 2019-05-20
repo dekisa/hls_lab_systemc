@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="lab_proj" solutionName="solution1" date="2019-05-20T17:20:45.075+0200"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="lab_proj" solutionName="solution1" date="2019-05-20T17:20:45.064+0200"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="lab_proj" solutionName="solution1" date="2019-05-20T17:04:47.206+0200"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="lab_proj" solutionName="solution1" date="2019-05-20T17:04:47.187+0200"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="lab_proj" solutionName="solution1" date="2019-05-20T17:03:22.637+0200"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="lab_proj" solutionName="solution1" date="2019-05-20T17:03:22.631+0200"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="lab_proj" solutionName="solution1" date="2019-05-20T17:01:03.629+0200"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="lab_proj" solutionName="solution1" date="2019-05-20T17:01:03.619+0200"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="lab_proj" solutionName="solution1" date="2019-05-20T16:57:46.377+0200"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="lab_proj" solutionName="solution1" date="2019-05-20T16:57:46.367+0200"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="lab_proj" solutionName="solution1" date="2019-05-20T16:55:04.136+0200"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="lab_proj" solutionName="solution1" date="2019-05-20T16:55:04.128+0200"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="lab_proj" solutionName="solution1" date="2019-05-20T16:53:16.882+0200"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="lab_proj" solutionName="solution1" date="2019-05-20T16:53:16.872+0200"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="lab_proj" solutionName="solution1" date="2019-05-20T16:51:47.040+0200"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="lab_proj" solutionName="solution1" date="2019-05-20T16:51:47.030+0200"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="lab_proj" solutionName="solution1" date="2019-05-20T16:51:02.130+0200"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="lab_proj" solutionName="solution1" date="2019-05-20T16:51:02.100+0200"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
