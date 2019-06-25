@@ -12,6 +12,7 @@ SC_MODULE(fifo_test)
 	int current_state;
 	int next_state;
 	int fifo_count;
+	int dummy;
 public:
 
 	//ports

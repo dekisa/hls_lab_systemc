@@ -5,7 +5,7 @@ void fifo_test::fifo_test_next_state(){
 	case state_reset:
 		fifo_count = 0;
 	case state_read:
-		if(data_in->nb_read())
+		if(data_in->nb_read(dummy))
 			fifo_count++;
 		if(fifo_count == fifo_length){
 			next_state = state_write;
@@ -14,7 +14,7 @@ void fifo_test::fifo_test_next_state(){
 		else
 			next_state = state_read;
 	case state_write:
-		if(data_out->nb_write())
+		if(data_out->nb_write(fifo_count))
 			fifo_count++;
 		if(fifo_count == fifo_length)
 			next_state = state_halt;
