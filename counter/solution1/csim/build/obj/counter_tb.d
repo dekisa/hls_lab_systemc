@@ -1,4 +1,4 @@
-obj/main.o: ../../../main.cpp \
+obj/counter_tb.o: ../../../counter_tb.cpp ../../../counter_tb.h \
  /opt/Xilinx/Vivado_HLS/2017.1/lnx64/tools/systemc/include/systemc.h \
  /opt/Xilinx/Vivado_HLS/2017.1/lnx64/tools/systemc/include/systemc \
  /opt/Xilinx/Vivado_HLS/2017.1/lnx64/tools/systemc/include/sysc/kernel/sc_cmnhdr.h \
@@ -114,5 +114,4 @@ obj/main.o: ../../../main.cpp \
  /opt/Xilinx/Vivado_HLS/2017.1/lnx64/tools/systemc/include/sysc/packages/boost/config/platform/linux.hpp \
  /opt/Xilinx/Vivado_HLS/2017.1/lnx64/tools/systemc/include/sysc/packages/boost/config/posix_features.hpp \
  /opt/Xilinx/Vivado_HLS/2017.1/lnx64/tools/systemc/include/sysc/packages/boost/config/suffix.hpp \
- /opt/Xilinx/Vivado_HLS/2017.1/lnx64/tools/systemc/include/sysc/packages/boost/utility/enable_if.hpp \
- ../../../mux.h ../../../mux_tb.h
+ /opt/Xilinx/Vivado_HLS/2017.1/lnx64/tools/systemc/include/sysc/packages/boost/utility/enable_if.hpp

@@ -115,4 +115,4 @@ obj/main.o: ../../../main.cpp \
  /opt/Xilinx/Vivado_HLS/2017.1/lnx64/tools/systemc/include/sysc/packages/boost/config/posix_features.hpp \
  /opt/Xilinx/Vivado_HLS/2017.1/lnx64/tools/systemc/include/sysc/packages/boost/config/suffix.hpp \
  /opt/Xilinx/Vivado_HLS/2017.1/lnx64/tools/systemc/include/sysc/packages/boost/utility/enable_if.hpp \
- ../../../mux.h ../../../mux_tb.h
+ ../../../top.h ../../../counter.h ../../../counter_tb.h

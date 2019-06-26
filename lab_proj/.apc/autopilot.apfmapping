@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="mux.cpp" path="C:\Users\Pract\hls_lab\lab_proj\mux.cpp"/>
-    <originFiles name="mux.h" path="C:\Users\Pract\hls_lab\lab_proj\mux.h"/>
-    <originFiles name="mux_tb.cpp" path="C:\Users\Pract\hls_lab\lab_proj\mux_tb.cpp"/>
-    <originFiles name="mux_tb.h" path="C:\Users\Pract\hls_lab\lab_proj\mux_tb.h"/>
+    <originFiles name="mux.cpp" path="/home/deki/master/hls/hls_proj_3/lab_files/hls_lab_systemc/lab_proj/mux.cpp"/>
+    <originFiles name="mux.h" path="/home/deki/master/hls/hls_proj_3/lab_files/hls_lab_systemc/lab_proj/mux.h"/>
+    <originFiles name="mux_tb.cpp" path="/home/deki/master/hls/hls_proj_3/lab_files/hls_lab_systemc/lab_proj/mux_tb.cpp"/>
+    <originFiles name="mux_tb.h" path="/home/deki/master/hls/hls_proj_3/lab_files/hls_lab_systemc/lab_proj/mux_tb.h"/>
   </source>
   <testbench>
-    <originFiles name="main.cpp" path="C:\Users\Pract\hls_lab\lab_proj\main.cpp"/>
+    <originFiles name="main.cpp" path="/home/deki/master/hls/hls_proj_3/lab_files/hls_lab_systemc/lab_proj/main.cpp"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

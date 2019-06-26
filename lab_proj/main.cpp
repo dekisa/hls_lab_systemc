@@ -21,13 +21,13 @@ int sc_main(int argc, char* argv[]){
 	mux0->in3(in3_tb);
 	mux0->out0(out0_tb);
 
-	mux_tb *mux_tb0;
-	mux_tb0 = new mux_tb("multiplexer test bench");
-	mux_tb0->sel(sel_tb);
-	mux_tb0->in0(in0_tb);
-	mux_tb0->in1(in1_tb);
-	mux_tb0->in2(in2_tb);
-	mux_tb0->in3(in3_tb);
+//	mux_tb *mux_tb0;
+//	mux_tb0 = new mux_tb("multiplexer_test_bench");
+//	mux_tb0->sel(sel_tb);
+//	mux_tb0->in0(in0_tb);
+//	mux_tb0->in1(in1_tb);
+//	mux_tb0->in2(in2_tb);
+//	mux_tb0->in3(in3_tb);
 
 	sc_trace_file* tf = sc_create_vcd_trace_file("trace_mux");
 	sc_trace(tf, sel_tb, "sel_tb");
@@ -35,6 +35,21 @@ int sc_main(int argc, char* argv[]){
 	sc_trace(tf, in1_tb, "in1_tb");
 	sc_trace(tf, in2_tb, "in2_tb");
 	sc_trace(tf, in3_tb, "in3_tb");
+	sc_trace(tf, out0_tb, "out0_tb");
+
+	sel_tb.write(1);
+	in0_tb.write(false);
+	in1_tb.write(true);
+	in2_tb.write(false);
+	in3_tb.write(false);
+
+	sc_start(100, SC_NS);
+
+	sel_tb.write(0);
+	in0_tb.write(false);
+	in1_tb.write(true);
+	in2_tb.write(false);
+	in3_tb.write(false);
 
 	sc_start(100, SC_NS);
 

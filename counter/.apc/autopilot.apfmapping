@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="counter.cpp" path="C:\Users\Pract\counter\counter.cpp"/>
-    <originFiles name="counter.h" path="C:\Users\Pract\counter\counter.h"/>
-    <originFiles name="counter_tb.cpp" path="C:\Users\Pract\counter\counter_tb.cpp"/>
-    <originFiles name="counter_tb.h" path="C:\Users\Pract\counter\counter_tb.h"/>
-    <originFiles name="top.h" path="C:\Users\Pract\counter\top.h"/>
+    <originFiles name="counter.cpp" path="/home/deki/master/hls/hls_proj_3/lab_files/hls_lab_systemc/counter/counter.cpp"/>
+    <originFiles name="counter.h" path="/home/deki/master/hls/hls_proj_3/lab_files/hls_lab_systemc/counter/counter.h"/>
+    <originFiles name="counter_tb.cpp" path="/home/deki/master/hls/hls_proj_3/lab_files/hls_lab_systemc/counter/counter_tb.cpp"/>
+    <originFiles name="counter_tb.h" path="/home/deki/master/hls/hls_proj_3/lab_files/hls_lab_systemc/counter/counter_tb.h"/>
+    <originFiles name="top.h" path="/home/deki/master/hls/hls_proj_3/lab_files/hls_lab_systemc/counter/top.h"/>
   </source>
   <testbench>
-    <originFiles name="main.cpp" path="C:\Users\Pract\counter\main.cpp"/>
+    <originFiles name="main.cpp" path="/home/deki/master/hls/hls_proj_3/lab_files/hls_lab_systemc/counter/main.cpp"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

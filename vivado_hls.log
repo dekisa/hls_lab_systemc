@@ -1,0 +1,20 @@
+INFO: [HLS 200-10] Running '/opt/Xilinx/Vivado_HLS/2017.1/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'root' on host 'Alberto-PC' (Linux_x86_64 version 4.15.0-52-generic) on Fri Jun 21 19:04:32 CEST 2019
+INFO: [HLS 200-10] On os Ubuntu 16.04.5 LTS
+INFO: [HLS 200-10] In directory '/home/deki/master/hls/hls_proj_3/lab_files/hls_lab_systemc'
+INFO: [HLS 200-10] Opening project '/home/deki/master/hls/hls_proj_3/lab_files/hls_lab_systemc/lab_proj'.
+INFO: [HLS 200-10] Opening solution '/home/deki/master/hls/hls_proj_3/lab_files/hls_lab_systemc/lab_proj/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg484-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../main.cpp in debug mode
+   Generating csim.exe
+
+             SystemC 2.3.0-ASI --- May 15 2013 06:32:03
+        Copyright (c) 1996-2012 by all Contributors,
+        ALL RIGHTS RESERVED
+
+WARNING: Default time step is used for VCD tracing.
+Simulation finished!INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************

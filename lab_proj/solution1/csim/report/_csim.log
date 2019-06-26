@@ -1,7 +1,13 @@
 INFO: [SIM 2] *************** CSIM start ***************
 INFO: [SIM 4] CSIM will launch GCC as the compiler.
    Compiling ../../../main.cpp in debug mode
-   Compiling ../../../mux_tb.cpp in debug mode
    Generating csim.exe
-CRITICAL WARNING: [SIM 100] CSim failed with errors.
+
+             SystemC 2.3.0-ASI --- May 15 2013 06:32:03
+        Copyright (c) 1996-2012 by all Contributors,
+        ALL RIGHTS RESERVED
+
+WARNING: Default time step is used for VCD tracing.
+Simulation finished!
+INFO: [SIM 1] CSim done with 0 errors.
 INFO: [SIM 3] *************** CSIM finish ***************

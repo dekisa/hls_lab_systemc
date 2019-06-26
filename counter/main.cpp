@@ -15,7 +15,8 @@ int sc_main(int argc, char* argv[]){
 	sc_trace(tf, top0.reset_top, "reset");
 	sc_trace(tf, top0.q_top, "q");
 
-	sc_start(500, SC_NS);
+	//while (top0.q_top.read() < 7)
+			sc_start(1000, SC_NS);
 	sc_close_vcd_trace_file(tf);
 	return 0;
 }

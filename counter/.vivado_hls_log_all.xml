@@ -3,6 +3,15 @@
   <errorLogs>
     <logs>
       <csimLog>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="counter" solutionName="solution1" date="2019-06-21T18:55:27.868+0200"/>
+        <logs message="@E Simulation failed: Function 'main' returns nonzero value '1'." projectName="counter" solutionName="solution1" date="2019-06-21T18:55:27.865+0200"/>
+        <logs message="Error: (E519) wait() is only allowed in SC_THREADs and SC_CTHREADs: &#xA;        in SC_METHODs use next_trigger() instead&#xA;In file: ../../../../src/sysc/kernel/sc_wait.cpp:66&#xA;In process: top.dut.counter_proc @ 20 ns" projectName="counter" solutionName="solution1" date="2019-06-21T18:55:27.863+0200"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="counter" solutionName="solution1" date="2019-06-21T14:25:31.567+0200"/>
+        <logs message="@E Simulation failed: Function 'main' returns nonzero value '1'." projectName="counter" solutionName="solution1" date="2019-06-21T14:25:31.565+0200"/>
+        <logs message="Error: (E109) complete binding failed: port not bound: port 'top.dut.port_3' (sc_out)&#xA;In file: ../../../../src/sysc/communication/sc_port.cpp:230" projectName="counter" solutionName="solution1" date="2019-06-21T14:25:31.562+0200"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="counter" solutionName="solution1" date="2019-06-21T14:23:52.008+0200"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="counter" solutionName="solution1" date="2019-06-21T13:46:33.525+0200"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="counter" solutionName="solution1" date="2019-06-21T13:45:47.466+0200"/>
         <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="counter" solutionName="solution1" date="2019-05-20T17:53:51.159+0200"/>
         <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="counter" solutionName="solution1" date="2019-05-20T17:52:35.526+0200"/>
       </csimLog>
@@ -10,7 +19,25 @@
   </errorLogs>
   <warningLogs>
     <logs>
-      <csimLog/>
+      <csimLog>
+        <logs message="WARNING: Default time step is used for VCD tracing.&#xA;&#xA;" projectName="counter" solutionName="solution1" date="2019-06-21T18:55:27.858+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T18:54:39.554+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T18:54:06.392+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T18:53:53.195+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T18:53:31.131+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T18:52:32.685+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T18:52:02.003+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T17:25:11.352+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T17:24:34.019+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T17:22:20.077+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T17:22:06.311+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T17:20:20.770+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T17:19:49.368+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T14:30:07.501+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T14:29:31.536+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T14:28:51.441+0200" type="Warning"/>
+        <logs message="WARNING: Default time step is used for VCD tracing." projectName="counter" solutionName="solution1" date="2019-06-21T14:27:31.138+0200" type="Warning"/>
+      </csimLog>
     </logs>
   </warningLogs>
 </vivadoHLSLog:LogRoot>

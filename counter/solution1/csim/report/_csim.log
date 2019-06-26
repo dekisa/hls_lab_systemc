@@ -1,9 +1,17 @@
 INFO: [SIM 2] *************** CSIM start ***************
 INFO: [SIM 4] CSIM will launch GCC as the compiler.
-   Compiling ../../../main.cpp in debug mode
-In file included from ../../../main.cpp:2:0:
-../../../top.h: In constructor 'top::top(sc_core::sc_module_name)':
-../../../top.h:18:27: error: type 'sc_core::sc_module_name' is not a direct base of 'top'
-make: *** [obj/main.o] Error 1
-CRITICAL WARNING: [SIM 100] 'csim_design' failed: compilation error(s).
+   Compiling ../../../counter.cpp in debug mode
+   Generating csim.exe
+
+             SystemC 2.3.0-ASI --- May 15 2013 06:32:03
+        Copyright (c) 1996-2012 by all Contributors,
+        ALL RIGHTS RESERVED
+
+WARNING: Default time step is used for VCD tracing.
+
+Error: (E519) wait() is only allowed in SC_THREADs and SC_CTHREADs: 
+        in SC_METHODs use next_trigger() instead
+In file: ../../../../src/sysc/kernel/sc_wait.cpp:66
+In process: top.dut.counter_proc @ 20 ns
+CRITICAL WARNING: [SIM 100] 'csim_design' failed: nonzero return value.
 INFO: [SIM 3] *************** CSIM finish ***************

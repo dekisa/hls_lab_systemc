@@ -8,7 +8,6 @@ SC_MODULE(clk_gen)
 public:
 	//ports
 	sc_out< bool > clk;
-	sc_out< bool > reset;
 	//constructor
 	SC_CTOR(clk_gen){
 
