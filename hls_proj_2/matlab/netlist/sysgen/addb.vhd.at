@@ -1,0 +1,27 @@
+{
+  'Line_126' => {
+    'CodeInstance' => 'addb_axi_lite_interface',
+    'Instance' => 'addb_axi_lite_interface',
+    'SimulinkInstance' => ''
+  },
+  'Line_152' => {
+    'CodeInstance' => 'addb_default_clock_driver',
+    'Instance' => 'addb_default_clock_driver',
+    'SimulinkInstance' => ''
+  },
+  'Line_160' => {
+    'CodeInstance' => 'addb_struct',
+    'Instance' => 'addb_struct',
+    'SimulinkInstance' => 'addb'
+  },
+  'Line_27' => {
+    'CodeInstance' => 'addb_struct/addsub',
+    'Instance' => 'addsub',
+    'SimulinkInstance' => 'addb/AddSub'
+  },
+  'Line_75' => {
+    'CodeInstance' => 'addb_default_clock_driver/clockdriver',
+    'Instance' => 'clockdriver',
+    'SimulinkInstance' => ''
+  }
+}
